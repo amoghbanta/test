@@ -1,5 +1,5 @@
 {
 	"question": "function binarySearch(ar, el, compare_fn) { \n var m = 0; \n var n = ar.length - 1; \n while (m <= n) { \n var k = (n + m) >> 1; \n var cmp = compare_fn(el, ar[k]); \n if (cmp > 0) { \n  m = k + 1; \n } else if(cmp < 0) { \n } else if(cmp < 0) { \n } else { \n   return k; \n } \n } \n return -m - 1;}",
-	"answer": "",
+	"answer": "binarysearch",
 	"hint": ""
 }
